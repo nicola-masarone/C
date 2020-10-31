@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664" target="_top" xlink:title="Function documentation.">
+<g id="a_node2"><a xlink:href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664" target="_top" xlink:title="allows the use of the assert() macro for a diagnostic test of the function allows the use of standard...">
 <polygon fill="white" stroke="black" points="69,-0.5 69,-19.5 165,-19.5 165,-0.5 69,-0.5"/>
 <text text-anchor="middle" x="117" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">factorial_recursive</text>
 </a>

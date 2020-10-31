@@ -1,5 +1,5 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title="Main function." alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node2" href="$dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664" title="Function documentation." alt="" coords="196,5,324,32"/>
+<area shape="rect" id="node2" href="$dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664" title="allows the use of the assert() macro for a diagnostic test of the function allows the use of standard..." alt="" coords="196,5,324,32"/>
 <area shape="rect" id="node3" href="$dd/d7b/factorial__recursive_8c.html#aa8dca7b867074164d5f45b0f3851269d" title="Test implementations." alt="" coords="104,31,148,57"/>
 </map>
