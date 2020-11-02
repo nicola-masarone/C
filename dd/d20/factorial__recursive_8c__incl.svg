@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="factorial with recursive function call definition recurrence relation">
+<g id="a_node1"><a xlink:title="Factorial with recursive function call definition recurrence relation">
 <polygon fill="#bfbfbf" stroke="black" points="0,-56.5 0,-75.5 128,-75.5 128,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="64" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">misc/factorial_recursive.c</text>
 </a>

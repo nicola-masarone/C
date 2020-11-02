@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('dd/d7b/factorial__recursive_8c.html','
 </div><!--header-->
 <div class="contents">
 
-<p>factorial with recursive function call <a href="https://en.wikipedia.org/wiki/Factorial#Definition">definition</a> <a href="https://en.wikipedia.org/wiki/Recurrence_relation">recurrence relation</a>  
+<p><a href="https://en.wikipedia.org/wiki/Factorial">Factorial</a> with recursive function call <a href="https://en.wikipedia.org/wiki/Factorial#Definition">definition</a> <a href="https://en.wikipedia.org/wiki/Recurrence_relation">recurrence relation</a>  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
@@ -121,8 +121,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>factorial with recursive function call <a href="https://en.wikipedia.org/wiki/Factorial#Definition">definition</a> <a href="https://en.wikipedia.org/wiki/Recurrence_relation">recurrence relation</a> </p>
-<p>This version of the factorial computation function obtains the result by recursively calling the function <a href="https://en.wikipedia.org/wiki/Factorial#Definition">definition</a> <a href="https://en.wikipedia.org/wiki/Recurrence_relation">recurrence relation</a> </p><dl class="section author"><dt>Author</dt><dd><a href="https://github.com/nicola-masarone">Nicola Masarone</a> </dd></dl>
+<div class="textblock"><p><a href="https://en.wikipedia.org/wiki/Factorial">Factorial</a> with recursive function call <a href="https://en.wikipedia.org/wiki/Factorial#Definition">definition</a> <a href="https://en.wikipedia.org/wiki/Recurrence_relation">recurrence relation</a> </p>
+<p>This version of the factorial computation function obtains the result by recursively calling the function </p><dl class="section author"><dt>Author</dt><dd><a href="https://github.com/nicola-masarone">Nicola Masarone</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a38f9ea3c0d9a94c4bbdc5efaee14b664"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38f9ea3c0d9a94c4bbdc5efaee14b664">&#9670;&nbsp;</a></span>factorial_recursive()</h2>
@@ -148,19 +148,19 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>factorial of the input value </dd></dl>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">// function statements here</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (val &lt; 1)</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="comment">// 0! is 1</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">// recursive code, with factorial evaluated as: val! = val*(val-1)!</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> val * <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(val - 1);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// function statements here</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (val &lt; 1)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="comment">// 0! is 1</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="comment">// recursive code, with factorial evaluated as: val! = val*(val-1)!</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> val * <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(val - 1);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -182,33 +182,33 @@ Functions</h2></td></tr>
 
 <p>Main function. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// execute the tests</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// code here</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> N = 0;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">long</span> <span class="keywordtype">long</span> result = 0;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    printf(</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="stringliteral">&quot;Enter the value (between 0 and 20) to calculate the factorial of and &quot;</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="stringliteral">&quot;press enter: &quot;</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    scanf(<span class="stringliteral">&quot;%d&quot;</span>, &amp;N);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (N &lt; 0)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        printf(<span class="stringliteral">&quot;Cannot calculate factorial of a negative number&quot;</span>);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (N &gt; 20)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        printf(<span class="stringliteral">&quot;The factorial of the number entered is too large for me&quot;</span>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        result = <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(N);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        printf(<span class="stringliteral">&quot;The factorial of %d is %lld&quot;</span>, N, result);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// execute the tests</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// code here</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> N = 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">long</span> <span class="keywordtype">long</span> result = 0;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    printf(</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="stringliteral">&quot;Enter the value (between 0 and 20) to calculate the factorial of and &quot;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="stringliteral">&quot;press enter: &quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    scanf(<span class="stringliteral">&quot;%d&quot;</span>, &amp;N);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (N &lt; 0)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        printf(<span class="stringliteral">&quot;Cannot calculate factorial of a negative number&quot;</span>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (N &gt; 20)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        printf(<span class="stringliteral">&quot;The factorial of the number entered is too large for me&quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        result = <a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(N);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        printf(<span class="stringliteral">&quot;The factorial of %d is %lld&quot;</span>, N, result);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -244,15 +244,15 @@ Here is the call graph for this function:</div>
 
 <p>Test implementations. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">/* desciptions of the following test */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(5) ==</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;           120);  <span class="comment">// this ensures that the algorithm works as expected</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(1) ==</div>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">/* desciptions of the following test */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(5) ==</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;           120);  <span class="comment">// this ensures that the algorithm works as expected</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(1) ==</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;           1);  <span class="comment">// this ensures that the algorithm works as expected</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(0) ==</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;           1);  <span class="comment">// this ensures that the algorithm works as expected</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    assert(<a class="code" href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a>(0) ==</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;           1);  <span class="comment">// this ensures that the algorithm works as expected</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -264,8 +264,8 @@ Here is the call graph for this function:</div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="afactorial__recursive_8c_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../dd/d7b/factorial__recursive_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Test implementations.</div><div class="ttdef"><b>Definition:</b> factorial_recursive.c:46</div></div>
-<div class="ttc" id="afactorial__recursive_8c_html_a38f9ea3c0d9a94c4bbdc5efaee14b664"><div class="ttname"><a href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a></div><div class="ttdeci">long long factorial_recursive(int val)</div><div class="ttdoc">allows the use of the assert() macro for a diagnostic test of the function allows the use of standard...</div><div class="ttdef"><b>Definition:</b> factorial_recursive.c:27</div></div>
+<div class="ttc" id="afactorial__recursive_8c_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../dd/d7b/factorial__recursive_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Test implementations.</div><div class="ttdef"><b>Definition:</b> factorial_recursive.c:44</div></div>
+<div class="ttc" id="afactorial__recursive_8c_html_a38f9ea3c0d9a94c4bbdc5efaee14b664"><div class="ttname"><a href="../../dd/d7b/factorial__recursive_8c.html#a38f9ea3c0d9a94c4bbdc5efaee14b664">factorial_recursive</a></div><div class="ttdeci">long long factorial_recursive(int val)</div><div class="ttdoc">allows the use of the assert() macro for a diagnostic test of the function allows the use of standard...</div><div class="ttdef"><b>Definition:</b> factorial_recursive.c:25</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
