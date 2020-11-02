@@ -1,6 +1,6 @@
 # Sample solutions for [exercism.io](http://exercism.io/)
 
-This directory contains some sample solutions for **exercism.io**
+This directory contains some sample solutions for [**exercism.io**](https://exercism.io/)
 
 ### Overview 
 
